@@ -1,5 +1,5 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].
+# Hands-on AI: Governing AI Agents in Practice
+This is the repository for the LinkedIn Learning course `Hands-on AI: Governing AI Agents in Practice`. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![lil-thumbnail-url]
 
