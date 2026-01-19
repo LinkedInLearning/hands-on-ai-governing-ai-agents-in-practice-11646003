@@ -1,6 +1,8 @@
 """
 Lesson 5: Detect and Log Agent Actions (Simple)
 
+- audit log flags: --log lesson5-detect-and-log-agent-actions/logs/agent_events.jsonl
+
 Goal:
 - Turn agent logs into governance signals:
   - violations

@@ -1,6 +1,8 @@
 """
 Lesson 2: Observe Agent Behavior
 
+Steps: Run main.py
+
 Goal:
 - Run the shopping agent with structured logging so you can audit what happened
 - Capture run start/end, tool invocations, tool outputs, and validated final output
@@ -50,7 +52,7 @@ LOG_DIR = f"{BASE_DIR}/logs"
 # items that need to be purchased
 INPUT_PATH = os.path.join(DATA_DIR, "shopping_notes.txt")
 
-# what the agent purchased and why
+#current state for what the agent will purchase
 OUTPUT_PATH = os.path.join(OUT_DIR, "shopping_summary.json")
 
 # structured event log for auditing

@@ -1,6 +1,9 @@
 """
 Lesson 6: Evaluate Agent Readiness (Simplified)
 
+-readiness_check.py flags 
+--inventory lesson6-evaluate-agent-readiness/inventory/agent_inventory.json --log lesson6-evaluate-agent-readiness/logs/agent_events.jsonl
+
 Goal:
 - Produce a READY / NOT READY decision using:
   1) Agent Inventory

@@ -1,0 +1,24 @@
+{
+  "input_file": "lesson1-examine-an-agent/data/shopping_notes.txt",
+  "budget": "$180 total",
+  "key_needs": [
+    "Chicken breast (2 lbs) or turkey if cheaper",
+    "Spinach (fresh, 2 bags)",
+    "Cherry tomatoes",
+    "Avocados (4)",
+    "Brown rice (1 bag)",
+    "Olive oil (small bottle)",
+    "Greek yogurt (dairy-free; no cow\u2019s milk)",
+    "Almond milk (unsweetened)",
+    "Black beans (4 cans)",
+    "Chickpeas (2 cans)",
+    "Salsa (medium)",
+    "Oats (1 container)",
+    "Paper towels",
+    "Dish soap",
+    "Trash bags (kitchen size)"
+  ],
+  "summary": "Weekly household order for the Williams household. Budget target is $180; aim to stay close. Substitutions: chicken breast 2 lbs or turkey if cheaper. Dietary/preferences: avoid shellfish, beef, pork, soy/tofu, and cow\u2019s milk; choose dairy-free yogurt and unsweetened almond milk; avoid artificial fragrances and prefer eco-friendly packaging. Payment: household card ending 4821. For substitution approval, email kesha.williams@example.com.",
+  "output_file": "lesson1-examine-an-agent/out/shopping_summary.json",
+  "created_at": "2026-01-19T14:42:51.324713+00:00"
+}

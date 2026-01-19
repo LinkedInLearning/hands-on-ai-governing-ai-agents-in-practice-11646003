@@ -1,6 +1,8 @@
 """
 Lesson 4: Add Runtime Guardrails
 
+Steps: Run main.py
+
 Goal:
 - Enforce runtime controls before an agent runs
 - Use inventory allowlists + path constraints (write only to OUT_DIR)

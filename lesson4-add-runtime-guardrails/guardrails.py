@@ -1,4 +1,3 @@
-# lesson4-add-runtime-guardrails/guardrails.py
 import os
 import re
 from typing import Optional, Tuple

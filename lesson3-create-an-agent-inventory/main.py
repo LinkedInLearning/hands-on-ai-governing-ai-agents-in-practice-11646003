@@ -1,6 +1,8 @@
 """
 Lesson 3: Create an Agent Inventory
 
+Steps: Run main.py
+
 Goal:
 - Create a structured inventory that lists your agents, their tools, and their access footprint
 - Introduce a second agent that uses WebSearchTool

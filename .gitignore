@@ -3,3 +3,7 @@ node_modules
 .tmp
 npm-debug.log
 .env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc

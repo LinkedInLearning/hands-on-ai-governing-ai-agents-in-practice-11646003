@@ -1,6 +1,8 @@
 """
 Lesson 1: Examine an Agent
 
+Steps: Run main.py
+
 Goal: 
 - Run the shopping agent and understand the tools and functionality
 
@@ -38,7 +40,7 @@ OUT_DIR = f"{BASE_DIR}/out"
 #items that need to be purchased
 INPUT_PATH = os.path.join(DATA_DIR, "shopping_notes.txt") 
 
-#what the agent purchased and why
+#current state for what the agent will purchase
 OUTPUT_PATH = os.path.join(OUT_DIR, "shopping_summary.json")
 
 # ---------------------------------------------------------------------------

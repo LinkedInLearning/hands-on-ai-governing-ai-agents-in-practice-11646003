@@ -1,6 +1,9 @@
 """
 Lesson 5: Detect and Log Agent Actions (Simple)
 
+Steps: Run main.py first, then audit_logs.py 
+- audit log flags: --log lesson5-detect-and-log-agent-actions/logs/agent_events.jsonl
+
 Goal:
 - Turn agent logs into governance signals:
   - violations

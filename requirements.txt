@@ -2,4 +2,3 @@ openai
 python-dotenv
 openai-agents
 pydantic
-deepdiff
