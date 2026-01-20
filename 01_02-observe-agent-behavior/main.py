@@ -44,7 +44,7 @@ client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 # ---------------------------------------------------------------------------
 # Local demo files
 # ---------------------------------------------------------------------------
-BASE_DIR = "lesson2-observe-agent-behavior"
+BASE_DIR = "01_02-observe-agent-behavior"
 DATA_DIR = f"{BASE_DIR}/data"
 OUT_DIR = f"{BASE_DIR}/out"
 LOG_DIR = f"{BASE_DIR}/logs"

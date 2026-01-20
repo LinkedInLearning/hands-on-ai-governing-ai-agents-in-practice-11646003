@@ -39,7 +39,7 @@ client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
-BASE_DIR = "lesson4-add-runtime-guardrails"
+BASE_DIR = "01_04-add-runtime-guardrails"
 DATA_DIR = f"{BASE_DIR}/data"
 OUT_DIR = f"{BASE_DIR}/out"
 LOG_DIR = f"{BASE_DIR}/logs"

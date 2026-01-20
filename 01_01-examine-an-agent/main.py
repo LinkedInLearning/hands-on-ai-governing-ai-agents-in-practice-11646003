@@ -33,7 +33,7 @@ client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 # ---------------------------------------------------------------------------
 # Local demo files
 # ---------------------------------------------------------------------------
-BASE_DIR = "lesson1-examine-an-agent"
+BASE_DIR = "01_01-examine-an-agent"
 DATA_DIR = f"{BASE_DIR}/data"
 OUT_DIR = f"{BASE_DIR}/out"
 

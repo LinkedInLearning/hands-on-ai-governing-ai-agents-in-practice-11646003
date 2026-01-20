@@ -40,7 +40,7 @@ client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
-BASE_DIR = "lesson6-evaluate-agent-readiness"
+BASE_DIR = "01_06-evaluate-agent-readiness"
 DATA_DIR = f"{BASE_DIR}/data"
 OUT_DIR = f"{BASE_DIR}/out"
 LOG_DIR = f"{BASE_DIR}/logs"
