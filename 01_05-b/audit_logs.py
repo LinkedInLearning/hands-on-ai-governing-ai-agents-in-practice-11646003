@@ -48,11 +48,9 @@ def is_web_tool(tool_name: str) -> bool:
 
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--log", required=True, help="Path to agent_events.jsonl")
-    args = ap.parse_args()
+    #TODO: Add an argument parser that reads the log file during runtime.
 
-    events = load_jsonl(args.log)
+    #TODO: Load the file into an events variable.
 
     # group events by run_id
     runs: dict[str, list[dict]] = defaultdict(list)
