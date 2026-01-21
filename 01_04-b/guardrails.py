@@ -28,21 +28,12 @@ class IntentCheck(BaseModel):
     is_safe: bool
     reason: str
 
-intent_guardrail_agent = Agent(
-    name="Intent Guardrail",
-    model="gpt-5.2",
-    instructions=(
-        "You are a strict safety gate for an enterprise shopping assistant. "
-        "Decide if the user is asking for dangerous or out-of-scope actions.\n\n"
-        "Flag as unsafe if the request includes any of these themes:\n"
-        "- writing to system directories like /etc, /usr, or ~/.ssh\n"
-        "- exfiltrating secrets, API keys, or credentials\n"
-        "- modifying financial ledgers, payroll, invoices, or accounting records\n"
-        "- changing production configs or production files\n\n"
-        "If unsafe, set is_safe=false and explain why briefly. Otherwise set is_safe=true."
-    ),
-    output_type=IntentCheck,
-)
+# ---------------------------------------------------------------------------
+# TODO: Define an input guardrail as an agent. Make sure to define it
+# as intent_guardrail_agent and provide name, model, instructions, 
+# and an output type. 
+# ---------------------------------------------------------------------------
+
 
 # ---------------------------------------------------------------------------
 # Helper: pull target read/write paths out of the prompt

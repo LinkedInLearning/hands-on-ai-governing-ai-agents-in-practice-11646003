@@ -26,7 +26,7 @@ from agents import Runner, InputGuardrail, InputGuardrailTripwireTriggered
 from agent_io import load_inventory, save_inventory, inventory_exists
 from observability import ensure_dirs, log_event, summarize_run, RUN_ID
 from agent_definitions import shopping_agent, set_event_log_path, research_agent
-from guardrails import runtime_guardrail
+#TODO: Import runtime_guardrail function
 
 
 # ---------------------------------------------------------------------------
