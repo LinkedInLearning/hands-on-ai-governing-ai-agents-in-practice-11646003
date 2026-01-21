@@ -57,13 +57,7 @@ def filter_run(events: list[dict[str, Any]], run_id: str) -> list[dict[str, Any]
 # ---------------------------------------------------------------------------
 def check_inventory_completeness(inventory: dict[str, Any]) -> list[str]:
     failures = []
-    required_fields = {
-        "owner",
-        "risk_level",
-        "environments",
-        "tool_access",
-        "data_access",
-    }
+    #TODO: add required_fields in a required_fields variable
 
     for agent in inventory.get("agents", []):
         name = agent.get("name", "unknown agent")
@@ -172,7 +166,7 @@ def main() -> None:
     reasons += check_tool_anomalies(run_events)
     reasons += check_high_risk_agent_behavior(inventory, run_events)
 
-    is_ready = len(reasons) == 0
+    #TODO: Set the is ready flag to determine if our agent is ready for procution. 
 
     print("READY" if is_ready else "NOT READY")
     print(f"Run: {run_id}")
