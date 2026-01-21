@@ -68,7 +68,7 @@ def build_default_inventory() -> AgentInventory:
                 purpose="Reads shopping notes and writes a structured JSON summary to disk.",
                 owner="AI Platform Team",
                 environments=["dev"],
-                risk_level=RiskLevel.medium,
+                #TODO: Define the risk level 
                 tool_access=[
                     ToolAccess(name="read_local_text", type="function_tool", notes="Reads local notes file"),
                     ToolAccess(name="write_local_json", type="function_tool", notes="Writes summary JSON to disk"),
@@ -89,7 +89,7 @@ def build_default_inventory() -> AgentInventory:
                 purpose="Uses web search to validate product choices or provide current guidance.",
                 owner="AI Platform Team",
                 environments=["dev"],
-                risk_level=RiskLevel.low,
+                #TODO: Define the risk level 
                 tool_access=[
                     ToolAccess(name="WebSearchTool", type="web_search", notes="Queries the internet for current info"),
                 ],

@@ -4,11 +4,12 @@ from enum import Enum
 from typing import List, Optional
 from pydantic import BaseModel, Field
 
-#shared vocabulary for risk that both humans and systems can understand
-class RiskLevel(str, Enum):
-    low = "low"
-    medium = "medium"
-    high = "high"
+# ---------------------------------------------------------------------------
+# TODO: 
+# Create a shared vocabulary for risk that both humans and systems 
+# can understand in the form of an Enum
+# ---------------------------------------------------------------------------
+
 
 #defines what data an agent can touch, separated into read and write access
 class DataAccess(BaseModel):
