@@ -1,3 +1,0 @@
-{"ts": "2026-01-19T14:48:56.903285+00:00", "run_id": "e748cafd-0f75-47ab-a8fe-52cade2b2afd", "event_type": "run_started", "agent_name": "Shopping Assistant Agent", "input_file": "lesson2-observe-agent-behavior/data/shopping_notes.txt", "output_file": "lesson2-observe-agent-behavior/out/shopping_summary.json"}
-{"ts": "2026-01-19T14:49:08.512902+00:00", "run_id": "e748cafd-0f75-47ab-a8fe-52cade2b2afd", "event_type": "output_validated", "schema": "AgentSummaryOutput", "output_file": "lesson2-observe-agent-behavior/out/shopping_summary.json", "key_needs_count": 0}
-{"ts": "2026-01-19T14:49:08.513029+00:00", "run_id": "e748cafd-0f75-47ab-a8fe-52cade2b2afd", "event_type": "run_completed", "agent_name": "Shopping Assistant Agent", "status": "ok"}
