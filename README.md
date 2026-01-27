@@ -5,6 +5,10 @@ This is the repository for the LinkedIn Learning course `Governing AI Agents: Vi
 
 ## Course Description
 
+AI agents often look impressive in demos but struggle when they hit production, where you need visibility, safety controls, and clear accountability for every action an agent takes. In this hands-on course, Kesha Williams—a machine learning technology leader with 25+ years of experience—shows you how to work in Python to transform an ungoverned shopping agent into a governed system that behaves predictably in real-world environments.
+
+Through hands-on coding in GitHub Codespaces, learn how to add structured logging to make agent behavior observable, implement runtime guardrails that block unsafe actions, and introduce human-in-the-loop approval workflows for high-risk changes. Kesha also demonstrates how to  build an agent inventory and a reusable deployment checklist that you can adapt to your own framework, giving you a practical governance tool kit—whether you are shipping your first agent feature or hardening an enterprise AI workflow.
+
 _See the readme file in the main branch for updated instructions and information._
 
 You’ll learn how to:
@@ -36,3 +40,14 @@ You’ll learn how to:
     export OPENAI_API_KEY="your_api_key"      # macOS/Linux
     setx OPENAI_API_KEY "your_api_key"        # Windows PowerShell
     ```
+
+## Instructor
+
+Kesha Williams
+
+Award-Winning Tech Innovator and AI/ML Leader
+
+[0]: # (Replace these placeholder URLs with actual course URLs)
+
+[lil-course-url]: https://www.linkedin.com/learning/hands-on-ai-governing-ai-agents-in-practice
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D560DAQGI-Se3J10Zdg/learning-public-crop_675_1200/B56ZwAkgMdIoAY-/0/1769536095658?e=2147483647&v=beta&t=7krzOEasBq7uPRaRvO9Ux1_Lg9bmAQ5Nb9GYvO7SuKg
