@@ -18,6 +18,10 @@ You’ll learn how to:
 - Enforce governance controls directly in code rather than relying on documentation or policy alone.
 - Apply agent governance patterns that translate across different agent frameworks and platforms.
 
+## Notes
+- This course, Governing AI Agents: Visibility and Control, is the first course in the governing AI agents series. The second course is [Operating AI Agents: Failure and Recovery](https://www.linkedin.com/learning/operating-ai-agents-failure-and-recovery/).
+
+
 ## Requirements
 - Python 3.9+
 - An [OpenAI API key](https://platform.openai.com/account/api-keys)
